@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cakra Digital Innovation - Jasa pembuatan website profesional, modern, dan responsif dengan SEO optimization. Solusi digital untuk bisnis Anda.">
+    <meta name="keywords" content="jasa pembuatan website, web development, SEO, responsive design, Cakra Digital Innovation">
+    <meta name="author" content="Cakra Digital Innovation">
+    <meta property="og:title" content="Cakra Digital Innovation - Jasa Pembuatan Website Profesional">
+    <meta property="og:description" content="Solusi digital terbaik untuk bisnis Anda dengan website modern dan responsif">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cakra-digital-innovation.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Cakra Digital Innovation - Jasa Pembuatan Website Profesional</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome untuk icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Cakra Digital Innovation",
+        "description": "Jasa pembuatan website profesional dengan SEO optimization",
+        "url": "https://cakra-digital-innovation.com",
+        "telephone": "+628123456789",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "ID"
+        },
+        "sameAs": [
+            "https://instagram.com/cakradigital",
+            "https://linkedin.com/company/cakra-digital-innovation"
+        ]
+    }
+    </script>
+</head>
+<body class="font-inter bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white shadow-md z-50 transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-cube text-white text-xl"></i>
+                    </div>
+                    <span class="text-xl font-bold text-gray-800">Cakra Digital</span>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-600 hover:text-blue-600 transition-colors">Beranda</a>
+                    <a href="#services" class="nav-link text-gray-600 hover:text-blue-600 transition-colors">Layanan</a>
+                    <a href="#portfolio" class="nav-link text-gray-600 hover:text-blue-600 transition-colors">Portfolio</a>
+                    <a href="#about" class="nav-link text-gray-600 hover:text-blue-600 transition-colors">Tentang</a>
+                    <a href="#contact" class="nav-link text-gray-600 hover:text-blue-600 transition-colors">Kontak</a>
+                </div>
+                
+                <button class="md:hidden text-gray-600" id="mobile-menu-btn">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="hidden md:hidden bg-white border-t" id="mobile-menu">
+            <div class="container mx-auto px-4 py-4 space-y-3">
+                <a href="#home" class="block text-gray-600 hover:text-blue-600 transition-colors">Beranda</a>
+                <a href="#services" class="block text-gray-600 hover:text-blue-600 transition-colors">Layanan</a>
+                <a href="#portfolio" class="block text-gray-600 hover:text-blue-600 transition-colors">Portfolio</a>
+                <a href="#about" class="block text-gray-600 hover:text-blue-600 transition-colors">Tentang</a>
+                <a href="#contact" class="block text-gray-600 hover:text-blue-600 transition-colors">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center bg-gradient-to-br from-blue-50 to-purple-50 pt-20">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div class="space-y-4">
+                        <h1 class="text-4xl md:text-6xl font-bold text-gray-800 leading-tight">
+                            Website <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Modern</span> untuk Bisnis Anda
+                        </h1>
+                        <p class="text-lg text-gray-600">
+                            Cakra Digital Innovation menyediakan jasa pembuatan website profesional, responsif, dan SEO-friendly untuk membantu bisnis Anda berkembang di era digital.
+                        </p>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
+                            <i class="fas fa-rocket mr-2"></i>Mulai Proyek
+                        </button>
+                        <button class="px-8 py-4 border-2 border-blue-600 text-blue-600 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300">
+                            <i class="fas fa-play-circle mr-2"></i>Lihat Demo
+                        </button>
+                    </div>
+                    
+                    <div class="flex items-center space-x-8">
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-500"></i>
+                            <span class="text-gray-600">100% Responsif</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-500"></i>
+                            <span class="text-gray-600">SEO Optimized</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-500"></i>
+                            <span class="text-gray-600">Modern Design</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="w-full h-96 bg-gradient-to-r from-blue-400 to-purple-400 rounded-2xl shadow-2xl flex items-center justify-center">
+                        <i class="fas fa-code text-white text-6xl"></i>
+                    </div>
+                    <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
+                        <i class="fas fa-star text-white text-2xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Layanan Kami</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Kami menyediakan berbagai layanan digital untuk memenuhi kebutuhan bisnis Anda
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="service-card bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-laptop-code text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Web Development</h3>
+                    <p class="text-gray-600 mb-6">
+                        Pembuatan website custom dengan teknologi terkini, responsif, dan user-friendly.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>HTML, CSS, TypeScript</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Responsive Design</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Modern Framework</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-search text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">SEO Optimization</h3>
+                    <p class="text-gray-600 mb-6">
+                        Optimasi website untuk mendapatkan peringkat terbaik di mesin pencari.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>On-Page SEO</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Technical SEO</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Content Strategy</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-mobile-alt text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Mobile Responsive</h3>
+                    <p class="text-gray-600 mb-6">
+                        Website yang sempurna di semua perangkat, dari desktop hingga smartphone.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Mobile-First Design</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Cross-Platform</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Touch Optimized</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Portfolio Kami</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Hasil karya terbaik kami untuk berbagai klien dan industri
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="portfolio-item bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <div class="h-48 bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center">
+                        <i class="fas fa-shopping-cart text-white text-4xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">E-Commerce Platform</h3>
+                        <p class="text-gray-600 mb-4">Website toko online dengan sistem pembayaran lengkap</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">React</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Node.js</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <div class="h-48 bg-gradient-to-r from-purple-400 to-purple-600 flex items-center justify-center">
+                        <i class="fas fa-building text-white text-4xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Corporate Website</h3>
+                        <p class="text-gray-600 mb-4">Website perusahaan profesional dengan CMS</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">TypeScript</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">Tailwind</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">Next.js</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <div class="h-48 bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center">
+                        <i class="fas fa-graduation-cap text-white text-4xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">E-Learning Platform</h3>
+                        <p class="text-gray-600 mb-4">Platform pembelajaran online dengan video streaming</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">Vue.js</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">Laravel</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Tentang Cakra Digital Innovation</h2>
+                    <p class="text-gray-600">
+                        Kami adalah tim profesional yang berdedikasi untuk menyediakan solusi digital terbaik untuk bisnis Anda. Dengan pengalaman lebih dari 5 tahun dalam industri web development, kami telah membantu ratusan klien untuk mengembangkan kehadiran online mereka.
+                    </p>
+                    <p class="text-gray-600">
+                        Visi kami adalah menjadi mitra digital terpercaya yang membantu bisnis berkembang melalui teknologi dan inovasi.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-blue-600 mb-2">500+</div>
+                            <div class="text-gray-600">Proyek Selesai</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-purple-600 mb-2">300+</div>
+                            <div class="text-gray-600">Klien Puas</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-green-600 mb-2">5+</div>
+                            <div class="text-gray-600">Tahun Pengalaman</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-yellow-600 mb-2">24/7</div>
+                            <div class="text-gray-600">Support</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="w-full h-96 bg-gradient-to-r from-blue-400 to-purple-400 rounded-2xl shadow-2xl flex items-center justify-center">
+                        <i class="fas fa-users text-white text-6xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Hubungi Kami</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Siap untuk memulai proyek Anda? Hubungi kami sekarang juga!
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <div class="space-y-6">
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-phone text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Telepon</h3>
+                                <p class="text-gray-600">+62 812-3456-7890</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-envelope text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Email</h3>
+                                <p class="text-gray-600">info@cakra-digital.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-map-marker-alt text-green-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800">Alamat</h3>
+                                <p class="text-gray-600">Jakarta, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-8 shadow-lg">
+                    <form id="contact-form" class="space-y-6">
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Nama Lengkap</label>
+                            <input type="text" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Subject</label>
+                            <input type="text" name="subject" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Pesan</label>
+                            <textarea name="message" rows="4" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
+                            <i class="fas fa-paper-plane mr-2"></i>Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-cube text-white text-xl"></i>
+                        </div>
+                        <span class="text-xl font-bold">Cakra Digital</span>
+                    </div>
+                    <p class="text-gray-400">
+                        Solusi digital terbaik untuk pertumbuhan bisnis Anda.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Layanan</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Web Development</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">SEO Optimization</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Mobile Responsive</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Perusahaan</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Tentang Kami</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Portfolio</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Karir</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Ikuti Kami</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-400 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-pink-600 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Cakra Digital Innovation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full shadow-lg hidden hover:shadow-xl transition-all duration-300 z-40">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- TypeScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
